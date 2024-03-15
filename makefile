@@ -17,7 +17,7 @@ SOURCEFILE =megaTempSleep.c i2c.c ssd1306.c
 
 #______________ MODIFY CPU CLOCK, PROGRAMMER MODEL, AND MCU_______________
 CLOCKSPEED = 1000000UL	#Use 16000000 for Arduino Uno; 1000000 for new ATmega328P chip
-PROGRAMMER = usbtiny 	#Use Arduino for Arduino Uno; usbtiny for pocket programmer 
+PROGRAMMER = usbtiny 	#Use arduino for Arduino Uno; usbtiny for pocket programmer 
 MCU = atmega328p 	#Use atmega328p, attiny85, or other MCU name as appropriate
 
 #______________DON'T CHANGE ANYTHING BELOW UNLESS YOU KNOW WHAT YOU'RE DOING_________
